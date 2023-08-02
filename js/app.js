@@ -8,7 +8,6 @@ function changeText(){
 }
 
 
-
 let changeImg = ()=>{
     var img = document.getElementById("img")
 
@@ -19,3 +18,14 @@ let changeImg = ()=>{
     }
 }
 
+
+var open = document.getElementById("open")
+
+open.addEventListener("click", function(){
+    var overlay = document.getElementById("overlay")
+    if(overlay.style.width == "80%"){
+        overlay.style.width = "0%"
+    }else{
+        overlay.style.width = "80%"
+    }
+})
