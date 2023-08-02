@@ -91,6 +91,9 @@ h4{
 .big{
     width: 100%;
 }
+.btn-t{
+    margin-top: 40px;
+}
 .m-1{
     margin: 16px;
 
@@ -106,8 +109,15 @@ h5{
     text-decoration: none;
     font-weight: normal;
 }
+.bi{
+    font-size: 24px;
+    font-weight: 500;
+    display: none;
+}
+
 .me{
     width: 80%;
+    float: right;
 }
 .more{
     display: flex;
@@ -167,7 +177,7 @@ h5{
     }
     .img{
         width: 55%;
-        border: 16px;
+        border-radius: 16px;
     }
     h4{
         font-size: 32px;
