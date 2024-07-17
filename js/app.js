@@ -11,10 +11,10 @@ function changeText(){
 let changeImg = ()=>{
     var img = document.getElementById("img")
 
-    if(img.src.match("./image/20191215_091110.jpg")){
-        img.src = "./image/figo.jpg"
+    if(img.src.match("./image/Capture.PNG")){
+        img.src = "./image/F1.png"
     }else{
-        img.src = "./image/20191215_091110.jpg"
+        img.src = "./image/Capture.PNG"
     }
 }
 
